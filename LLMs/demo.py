@@ -5,7 +5,6 @@ load_dotenv()
 
 model = ChatGoogleGenerativeAI(
     model="gemini-3.6-flash",
-    temperature=0
 )
 
 response = model.invoke("What is Python?")
